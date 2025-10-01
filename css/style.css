@@ -208,7 +208,7 @@ nav button {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
-  padding: 1rem 1.5rem;
+  padding: .8rem 1rem;
   font-size: 1.5rem;
   cursor: pointer;
   border-radius: 50%;
@@ -244,8 +244,8 @@ nav button {
 .services-detailed,
 .contact-form-section {
   padding: 4rem 2rem;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1800px;
+  /* margin: auto; */
   text-align: center;
 }
 
