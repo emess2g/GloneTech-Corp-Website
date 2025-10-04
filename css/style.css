@@ -207,7 +207,7 @@ nav button {
 .contact-form-section {
   padding: 2rem;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
@@ -303,6 +303,12 @@ nav button {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.contact-form-section h2 {
+  text-align: center;
+  margin: 3rem;
+  color: var(--color-secondary);
+}
+
 .contact-form-section label,
 .contact-form-section input,
 .contact-form-section textarea {
@@ -333,6 +339,8 @@ nav button {
 .contact-form-section button:hover {
   background-color: var(--color-secondary);
 }
+
+
 
 #formMessage {
   margin-top: 1rem;
