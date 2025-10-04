@@ -20,6 +20,10 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
             integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="js/nav.js" defer></script>
+        <script src="js/contact.js" defer></script>
+        <script src="js/script.js" defer></script>
     </head>
 
     <body>
@@ -32,14 +36,16 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+                <button id="close-menu-btn"> <i class="fa-regular fa-xmark"></i></button>
             </nav>
         </header>
 
         <main>
             <section class="services-detailed">
                 <h2>Our Comprehensive Services</h2>
-
-                <div class="service-item">
+<div class="service-con">
+                    <div class=" service-item">
                     <div class="service-card-con">
                         <h3>Web Development & Design</h3>
                         <p>
@@ -141,39 +147,41 @@
                             style="width:100%; height:auto; border-radius:8px; margin-top: 1rem;">
                     </div>
                 </div>
+</div>
+
 
 
             </section>
         </main>
 
-        <footer>
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>GloneTech</h4>
-                    <p>Providing top-tier technology solutions for a digital world.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
-                    <p>Join our socials </p>
-                    <a alt="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                    <a alt="Twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <a alt="Twitter"><i class="fa-brands fa-linkedin"></i></a>
-                    <a alt="Twitter"><i class="fa-brands fa-youtube"></i></a>
-                    <a alt="Twitter"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+            <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>GloneTech</h4>
+                <p>Providing top-tier technology solutions for a digital world.</p>
             </div>
-            <div class="footer-bottom">
-                &copy; <span class="year"></span> GloneTech. All rights reserved.
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </footer>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <p>Join our socials</p>
+                <a alt="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a alt="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a alt="Twitter"><i class="fa-brands fa-linkedin"></i></a>
+                <a alt="Twitter"><i class="fa-brands fa-youtube"></i></a>
+                <a alt="Twitter"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; <span class="year"></span> GloneTech. All rights reserved.
+        </div>
+    </footer>
     </body>
 
 </html>
